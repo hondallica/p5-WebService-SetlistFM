@@ -167,31 +167,10 @@ WebService::SetlistFM - A simple and fast interface to the www.setlist.fm API
 
     my $setlistfm = new WebService::SetlistFM;
     my $data = $setlistfm->artist('65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
-    $data = $setlistfm->city('5392171');
     $data = $setlistfm->search_artists({
-            'artistName' => 'Metallica',
-                'artistMbid' => '65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab',
+        'artistName' => 'Metallica',
+        'artistMbid' => '65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab',
     });
-    $data = $setlistfm->search_cities({ name => 'Shibuya' });
-    $data = $setlistfm->search_countries(;
-    $data = $setlistfm->search_setlists({
-            artistName => 'Megadeth',
-                year => 2014,
-    });
-    $data = $setlistfm->search_venues({name => 'Shibuya'});
-    $data = $setlistfm->setlist('3bd6440c');
-    $data = $setlistfm->user('fuzy');
-    $data = $setlistfm->venue('33d6d4ac');
-    $data = $setlistfm->artist_setlists('65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
-    $data = $setlistfm->setlist_lastfm('999009');
-    $data = $setlistfm->setlist_version('6bd45a36');
-    $data = $setlistfm->user_attended('fuzy');
-    $data = $setlistfm->user_edited('fuzy');
-    $data = $setlistfm->venue_setlists('33d6d4ac');
-    $data = $setlistfm->artist_tour(
-        '65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab', 
-        'World Magnetic'
-    );
 
 =head1 DESCRIPTION
 
@@ -202,37 +181,80 @@ These methods usage: http://api.setlist.fm/docs/
 
 =head3 artist
 
+    my $data = $setlistfm->artist('65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
+
 =head3 city
+
+    my $data = $setlistfm->city('5392171');
 
 =head3 search_artists
 
+    my $data = $setlistfm->search_artists({
+        'artistName' => 'Metallica',
+        'artistMbid' => '65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab',
+    });
+
 =head3 search_cities
+
+    my $data = $setlistfm->search_cities({ name => 'Shibuya' });
 
 =head3 search_countries
 
+    my $data = $setlistfm->search_countries();
+
 =head3 search_setlists
+
+    my $data = $setlistfm->search_setlists({
+        artistName => 'Megadeth',
+        year => 2014,
+    });
 
 =head3 search_venues
 
+    my $data = $setlistfm->search_venues({name => 'Shibuya'});
+
 =head3 setlist
+
+    my $data = $setlistfm->setlist('3bd6440c');
 
 =head3 user
 
+    my $data = $setlistfm->user('fuzy');
+
 =head3 venue
+
+    my $data = $setlistfm->venue('33d6d4ac');
 
 =head3 artist_setlists
 
+    my $data = $setlistfm->artist_setlists('65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab');
+
 =head3 setlist_lastfm
+
+    my $data = $setlistfm->setlist_lastfm('999009');
 
 =head3 setlist_version
 
+    my $data = $setlistfm->setlist_version('6bd45a36');
+
 =head3 user_attended
+
+    my $data = $setlistfm->user_attended('fuzy');
 
 =head3 user_edited
 
+    my $data = $setlistfm->user_edited('fuzy');
+
 =head3 venue_setlists
 
+    my $data = $setlistfm->venue_setlists('33d6d4ac');
+
 =head3 artist_tour
+
+    my $data = $setlistfm->artist_tour(
+        '65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab', 
+        'World Magnetic'
+    );
 
 =head1 SEE ALSO
 
