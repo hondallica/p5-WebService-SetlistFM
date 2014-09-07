@@ -9,7 +9,6 @@ use Carp;
 use Moo;
 use namespace::clean;
 our $VERSION = "0.01";
-use Data::Dumper;
 
 
 $Net::DNS::Lite::CACHE = Cache::LRU->new( size => 512 );
