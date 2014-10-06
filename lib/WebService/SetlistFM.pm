@@ -158,7 +158,7 @@ __END__
 
 =head1 NAME
 
-WebService::SetlistFM - A simple and fast interface to the www.setlist.fm API
+WebService::SetlistFM - A simple and fast interface to the L<http://www.setlist.fm> API
 
 =head1 SYNOPSIS
 
@@ -173,10 +173,11 @@ WebService::SetlistFM - A simple and fast interface to the www.setlist.fm API
 
 =head1 DESCRIPTION
 
-The module provides a simple interface to the www.setlist.fm API.
+The module provides a simple interface to the L<http://www.setlist.fm> API.
 
 =head1 METHODS
-These methods usage: http://api.setlist.fm/docs/ 
+
+These methods usage: L<http://api.setlist.fm/docs/>
 
 =head3 artist
 
@@ -257,7 +258,7 @@ These methods usage: http://api.setlist.fm/docs/
 
 =head1 SEE ALSO
 
-http://api.setlist.fm/docs/
+L<http://api.setlist.fm/docs/>
 
 =head1 LICENSE
 

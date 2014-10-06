@@ -1,10 +1,10 @@
 {
-   "abstract" : "A simple and fast interface to the www.setlist.fm API",
+   "abstract" : "A simple and fast interface to the L<http://www.setlist.fm> API",
    "author" : [
       "Hondallica <hondallica@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.142060",
+   "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],

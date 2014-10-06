@@ -1,6 +1,6 @@
 # NAME
 
-WebService::SetlistFM - A simple and fast interface to the www.setlist.fm API
+WebService::SetlistFM - A simple and fast interface to the [http://www.setlist.fm](http://www.setlist.fm) API
 
 # SYNOPSIS
 
@@ -15,10 +15,11 @@ WebService::SetlistFM - A simple and fast interface to the www.setlist.fm API
 
 # DESCRIPTION
 
-The module provides a simple interface to the www.setlist.fm API.
+The module provides a simple interface to the [http://www.setlist.fm](http://www.setlist.fm) API.
 
 # METHODS
-These methods usage: http://api.setlist.fm/docs/ 
+
+These methods usage: [http://api.setlist.fm/docs/](http://api.setlist.fm/docs/)
 
 ### artist
 
@@ -99,7 +100,7 @@ These methods usage: http://api.setlist.fm/docs/
 
 # SEE ALSO
 
-http://api.setlist.fm/docs/
+[http://api.setlist.fm/docs/](http://api.setlist.fm/docs/)
 
 # LICENSE
 
