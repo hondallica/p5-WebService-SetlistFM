@@ -91,7 +91,8 @@ sub venue {
 sub artist_setlists {
     my $self = shift;
     my $mbid = shift;
-    return $self->request("artist/$mbid/setlists.json");
+    my $query_param = shift;
+    return $self->request("artist/$mbid/setlists.json", $query_param);
 } 
 
 sub setlist_lastfm {
