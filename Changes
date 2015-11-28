@@ -2,6 +2,10 @@ Revision history for Perl extension WebService-SetlistFM
 
 {{$NEXT}}
 
+0.04 2015-11-28T15:51:19Z
+
+    - Fix contributors email address
+
 0.03 2015-11-28T01:42:41Z
 
     - Accept query params in the artist_setlist method.
