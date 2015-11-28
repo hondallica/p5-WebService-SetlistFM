@@ -76,7 +76,7 @@
    "x_authority" : "cpan:HONDALLIC",
    "x_contributors" : [
       "Dave Cross <dave@perlhacks.com>",
-      "hondallica <metal@nzm.jrnet.ne.jp>"
+      "hondallica <hondallica@gmail.com>"
    ],
    "x_serialization_backend" : "JSON::PP version 2.27300"
 }
