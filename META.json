@@ -4,7 +4,7 @@
       "Hondallica <hondallica@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v2.1.1, CPAN::Meta::Converter version 2.142690",
+   "generated_by" : "Minilla/v3.0.0, CPAN::Meta::Converter version 2.150005",
    "license" : [
       "perl_5"
    ],
@@ -67,10 +67,16 @@
       },
       "homepage" : "https://github.com/hondallica/p5-WebService-SetlistFM",
       "repository" : {
-         "url" : "https://github.com/hondallica/p5-WebService-SetlistFM.git",
+         "type" : "git",
+         "url" : "git://github.com/hondallica/p5-WebService-SetlistFM.git",
          "web" : "https://github.com/hondallica/p5-WebService-SetlistFM"
       }
    },
    "version" : "0.02",
-   "x_authority" : "cpan:HONDALLIC"
+   "x_authority" : "cpan:HONDALLIC",
+   "x_contributors" : [
+      "Dave Cross <davidc@broadbean.com>",
+      "hondallica <metal@nzm.jrnet.ne.jp>"
+   ],
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }
